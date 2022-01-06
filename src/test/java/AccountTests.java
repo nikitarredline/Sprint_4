@@ -25,6 +25,11 @@ public class AccountTests {
                 {"Тимоти Шаламеееееее", true},
                 {"Тимоти Шаламееееееее", false},
                 {"Тим оти Шал аме", false},
+                {" ТимотиШаламе", false},
+                {"Ти", false},
+                {"", false},
+                {"", false},
+                {null, false},
         };
     }
 
